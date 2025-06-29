@@ -40,8 +40,10 @@ const allowedOrigins = [
   'http://localhost:3000',
   'http://localhost:5173',
   'http://localhost:5174',
-  'http://localhost:4200'
+  'http://localhost:4200',
+  'https://comerc.vercel.app'
 ];
+
 
 app.use(cors({
   origin: function (origin, callback) {
