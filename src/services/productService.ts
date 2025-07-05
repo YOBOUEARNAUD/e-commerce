@@ -68,7 +68,8 @@ export const createProduct = async (productData: Partial<Product> & { image?: Fi
     const response = await client.post('/products', formData, {
       headers: {
         'Content-Type': 'multipart/form-data'
-      }
+      },
+      withCredentials: true // Assurez-vous d'envoyer les cookies avec la requête
     });
 
     return response.data.data;
