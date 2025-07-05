@@ -41,7 +41,8 @@ const allowedOrigins = [
   'http://localhost:5173',
   'http://localhost:5174',
   'http://localhost:4200',
-  'https://comerc.vercel.app'
+  'https://comerc.vercel.app',
+  "https://e-commerce-kappa-blond-89.vercel.app"
 ];
 
 
