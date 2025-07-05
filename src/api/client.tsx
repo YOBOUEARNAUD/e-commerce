@@ -2,7 +2,7 @@
 import axios from 'axios';
 
 const client = axios.create({
-  baseURL: 'https://ecommerce-backend-2-12tl.onrender.com/api',
+  baseURL: 'https://e-commerce-1-7qxq.onrender.comapi',
   withCredentials: true,
   timeout: 50000, // 10 secondes timeout
 });
