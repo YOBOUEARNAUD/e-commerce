@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL = process.env.REACT_APP_API_URL || 'https://https://e-commerce-1-7qxq.onrender.com/api';
+const API_URL = process.env.REACT_APP_API_URL || 'https://e-commerce-1-7qxq.onrender.com/api';
 
 export const getCategories = async () => {
   try {

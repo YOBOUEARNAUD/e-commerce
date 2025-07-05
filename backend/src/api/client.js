@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const client = axios.create({
-  baseURL: process.env.REACT_APP_API_URL || 'https://https://e-commerce-1-7qxq.onrender.com/api',
+  baseURL: process.env.REACT_APP_API_URL || 'https://e-commerce-1-7qxq.onrender.com/api',
   withCredentials: true,
   timeout: 10000,
 });
