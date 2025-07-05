@@ -28,11 +28,11 @@ const OrderPage = () => {
         return (
           <div className="product-cell">
             <Image
-              src={record.image?.startsWith('http') ? record.image : `https://e-commerce-1-7qxq.onrender.com/uploads${record.image}`}
+              src={record.image?.startsWith('http') ? record.image : `https://e-commerce-1-7qxq.onrender.com${record.image}`}
               alt={record.name ? String(record.name) : ''}
               width={80}
               height={80}
-              fallback={record.image?.startsWith('http') ? record.image : `https://e-commerce-1-7qxq.onrender.com/uploads${record.image}`}
+              fallback={record.image?.startsWith('http') ? record.image : `https://e-commerce-1-7qxq.onrender.com${record.image}`}
               preview={false}
               className="product-image"
             />

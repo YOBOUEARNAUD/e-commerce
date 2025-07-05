@@ -15,7 +15,7 @@ const getImageUrl = (imagePath: string | undefined): string => {
   if (imagePath.startsWith('http')) return imagePath;
   
   // Utiliser l'URL complète du serveur backend
-  return `https://e-commerce-1-7qxq.onrender.com/uploads${imagePath}`;
+  return `https://e-commerce-1-7qxq.onrender.com${imagePath}`;
 };
 
 const Home: React.FC = () => {
